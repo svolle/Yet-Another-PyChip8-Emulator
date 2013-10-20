@@ -1,0 +1,8 @@
+.gitconfig
+.project
+.pydevproject
+.settings
+.idea
+
+*.pyc
+roms

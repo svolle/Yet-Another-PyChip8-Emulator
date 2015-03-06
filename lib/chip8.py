@@ -370,22 +370,22 @@ class Chip8(object):
 
         # 4kB memory
         self.memory = array('I', (0 for _ in range(0xFFF + 1)))
-        # 16bits stack
+        # 16-bits stack
         self.stack = array('I', (0 for _ in range(0xF + 1)))
 
-        # 16x8-bits registers
+        # 16 x 8-bits registers
         self.v_registers = array('I', (0 for _ in range(0xF + 1)))
-        # 16bits register
+        # 16-bits register
         self.i_register = None
 
-        # 16bits timer
+        # 16-bits timer
         self.dt = None
-        # 16bits timer                                   
+        # 16-bits timer
         self.st = None
 
-        # 16bits program counter
+        # 16-bits program counter
         self.pc = None
-        # 8bits stack pointer                                  
+        # 8-bits stack pointer
         self.sp = None
 
         self.display = array('I', [0] * (DISPLAY_WIDTH * DISPLAY_HEIGHT))

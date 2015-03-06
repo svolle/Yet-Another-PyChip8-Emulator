@@ -16,7 +16,7 @@ from lib import chip8, event_loop, renderer, keyboard
 __author__ = 'Sébastien Volle'
 __copyright__ = 'Copyright 2013, Sébastien Volle'
 __credits__ = ['Sébastien Volle', 'Alexander Dickson']
-__version__ = "0.1.0"
+__version__ = '0.1.0'
 __maintainer__ = 'Sébastien Volle'
 __email__ = 'sebastien.volle@gmail.com'
 
